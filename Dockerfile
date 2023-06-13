@@ -2,6 +2,6 @@
 From tomcat:8-jre8
 
 # Maintainer 
-MAINTAINER "pradeep" 
+MAINTAINER "pradeepranjan" 
 COPY webapp/target/*.war /usr/local/tomcat/webapps
 
