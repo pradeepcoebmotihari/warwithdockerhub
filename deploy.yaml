@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nod
-        image: pradeepcoeb/tomcat:rrrrr
+        image: imagename
         ports:
         - containerPort: 80
         resources:
