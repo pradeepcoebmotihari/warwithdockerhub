@@ -1,0 +1,25 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: dep
+spec:
+  selector:
+    matchLabels:
+      name: pradeep
+  replicas: 2
+  template:
+    metadata:
+      name: pod
+      labels:
+        name: pradeep
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            cpu: '100m'
+          limits:
+            cpu: '100m' 
