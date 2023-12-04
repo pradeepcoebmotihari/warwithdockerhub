@@ -14,8 +14,8 @@ spec:
         name: pradeep
     spec:
       containers:
-      - name: nginx
-        image: nginx
+      - name: nod
+        image: pradeepcoeb/tomcat:rrrrr
         ports:
         - containerPort: 80
         resources:
